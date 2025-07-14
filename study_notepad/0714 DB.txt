@@ -1,0 +1,59 @@
+1교시 데이터베이스 
+
+MySQL로 시작해서 ORACLE 사용
+
+1999->2000 
+Y2K문제 발생
+
+DB에 값을 저장하려면 데이터의 값을 알아야함
+
+
+2교시 MySQL 시작
+
+
+DDL -> Definition 정의어
+create, drop, alter, use
+생성, 삭제, 수정, 사용
+테이블에 대한 명령어
+
+
+DML -> Manipulation 
+insert, update, delete, select
+추가, 갱신, 삭제, 조회
+테이블의 정보에 대한 명령어
+
+
+DCL -> Control -> 권한관리
+grant, revoke
+권한부여, 회수
+
+
+3교시 MySQL 워크벤치 사용
+
+CMD 및 워크벤치 에서 DDL, DML 실습 
+
+4교시 Oracle 설치 및 개발환경 설정
+
+
+5교시 Oracle 실습
+int 대신 number(단위)도 가능
+문자열 입력할때는 쌍따옴표가 아닌 단따옴표
+
+6교시 Oracle 실습
+
+데이터베이스 계정 만들고 접속하기
+
+7교시
+
+교재에 있는 실습 데이터
+활용하여 create부터 select까지 전체적으로 실습
+
+8교시
+
+select 조회에서 최댓값, 최소값, 평균을 구하는 함수 실습
+
+MySQL에서는 AutoIncrement 가능하지만
+오라클에서는 시퀀스를 활용해야하여 추후 설명 예정
+
+오라클에서 DB 생성, 수정, 삭제등을 했을 경우 commit을 해야 확정
+commit전에 에러가 발생할 경우 rollback 발생
