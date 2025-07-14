@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>입력 양식 예제 2번</title>
+</head>
+<body>
+    <form method="post" action="처리할 프로그램 파일 이름" enctype="multipart/form-data">
+        <!--  라디오버튼 : 권한 - 임원, 직원, 협력회사 : 이름을 하나로 제어 -->
+        
+        <input type="radio" name="auth" value="임원"> 임원
+        <input type="radio" name="auth" value="직원" checked> 직원
+        <input type="radio" name="auth" value="협력회사"> 협력회사
+        <br>
+        <!-- 체크박스버튼 비교 : 이름 여러 개로 제어 -->
+
+        <input type="checkbox" name="climb" value="3"> 등산
+        <input type="checkbox" name="fish" value="2"> 낚시
+        <input type="checkbox" name="golf" value="1" checked disabled> 골프
+        <br><br>
+
+        <!-- button과 input type="submit"의 차이 -->
+        <!-- enter쳐도 될때는 submit 그렇지 않을때는 button -->
+        <!-- 사이트 중간에 있는 비밀번호 확인같이 중간에 있을때는 button
+            그렇지 않고 마지막에 회원가입완료나 로그인같은 것들은 submit
+            무조건 그런것은 아니고 통상적으로 그렇다. -->
+
+
+        <!-- <input type="hidden" value="양정"> -->
+
+
+        <select name="area">
+            <option value="서울">서울특별시</option>
+            <option value="부산">부산광역시</option>
+            <option value="대구">대구광역시</option>
+        </select>
+
+        <select name="area" multiple>
+            <option value="서울">서울특별시</option>
+            <option value="부산">부산광역시</option>
+            <option value="대구">대구광역시</option>
+        </select>
+
+
+
+    </form>
+</body>
+</html>

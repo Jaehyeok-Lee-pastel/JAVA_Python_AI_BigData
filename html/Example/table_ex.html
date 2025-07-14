@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시멘틱 태그와 테이블 활용하기</title>
+
+    <style>
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px 0;
+        }
+
+        header h1, header p {
+            color: #fff;
+            text-align: center;
+        }
+
+        main {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            /* border: ; 두께 타입 색상 */
+            border: 1px solid #ddd;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #f0f0f0;
+        }
+
+        tbody tr:hover {
+            background-color: ivory;
+            cursor: pointer;
+        }
+
+        /* button {
+            border: 0;
+            background-color: red;
+            color: #fff;
+            padding: 5px 12px;
+        } */
+
+        footer {
+            background-color: #333;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            text-align: center;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>시멘틱 태그와 테이블을 이용한 회원목록</h1>
+        <p>활용 예제</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>회원목록 관리</h2>
+
+            <table>
+                <thead>
+                    <th>이름</th>
+                    <th>이메일</th>
+                    <th>가입일</th>
+                    <th>비고</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            <strong><a href="#">김민수</a></strong>
+                        </td>
+                        <td>mail@mail.com</td>
+                        <td>2025-07-11</td>
+                        <td>
+                            <button>수정</button>
+                            <button>삭제</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>김민지</td>
+                        <td>mail1@mail.com</td>
+                        <td>2025-07-11</td>
+                        <td>
+                            <button>수정</button>
+                            <button>삭제</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>김민우</td>
+                        <td>mail2@mail.com</td>
+                        <td>2025-07-11</td>
+                        <td>
+                            <button>수정</button>
+                            <button>삭제</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2025 회원관리 시스템
+        </p>
+    </footer>
+</body>
+</html>

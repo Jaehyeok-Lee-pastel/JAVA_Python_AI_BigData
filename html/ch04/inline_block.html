@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인라인 타입 & 블록타입</title>
+
+    <style>
+        span {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            margin-right: -6px;
+        }
+
+        .box {
+            background-color: blue;
+            color: #fff;
+        }
+
+        .wrap {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <!-- 인라인 : 내용만큼만 공간을 차지 ex(span, a, img, 입력폼)-->
+
+    <!-- 블록타입 : 내용과 상관없이 한 줄 -->
+    
+    <!-- inline 메뉴 만들기 => 가로배치 -->
+
+    <span>단어1</span>
+    <span>단어2</span>
+    <span>단어3</span>
+
+
+    <div class="wrap">
+        <div class="box">상자1</div>
+        <div class="box">상자2</div>
+        <div class="box">상자3</div>
+    </div>
+    <img src="../ch03/images/i01.jpg" alt="">
+</body>
+</html>

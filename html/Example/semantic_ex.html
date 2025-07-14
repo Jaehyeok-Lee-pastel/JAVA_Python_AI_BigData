@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시멘틱 실무 예제</title>
+
+    <style>
+        header {
+            background-color: #333;
+            padding: 20px 0;
+            padding-left: 15px;
+        }
+
+        header h1, header p {
+            color: #fff;
+        }
+
+        nav {
+            background-color: #F4F4F4;
+            padding: 20px 0;
+        }
+
+        main {
+            display: flex;
+            padding: 20px;
+        }
+
+        section {
+            flex: 3;
+        }
+
+        article {
+            background-color: #eee;
+            padding: 20px 10px;
+            margin-bottom: 20px;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #f9f9f9;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 20px 0; 
+            /* 사각형 내부의 간격 조절, padding 위아래, 좌우 */
+        }
+
+        footer p {
+            color: #fff;        
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1> 내 블로그 </h1>
+        <p> 시멘틱 태그로 만든 웹사이트 구조 </p>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#">홈</a>
+            </li>
+            <li>
+                <a href="#">소개</a>
+            </li>
+            <li>
+                <a href="#">연락처</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <article>
+                <h2>첫번째 게시글</h2>
+                <p>첫번째 게시글입니다. 시멘틱 태그를 이용했습니다.</p>
+            </article>
+            <article>
+                <h2>두번째 게시글</h2>
+                <p>첫번째 게시글입니다. 시멘틱 태그를 이용했습니다.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h3> 사이드 바 </h1>
+        </aside>
+
+    </main>
+
+    <footer> 
+        <p>&copy; 2025 양정인력개발센터 웹사이트. 모든 권리</p> 
+    </footer>
+</body>
+</html>

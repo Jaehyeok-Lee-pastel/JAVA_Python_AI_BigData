@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>색상 지정하기</title>
+
+    <style>
+        h1 {
+            color: red; 
+            background-color: blue;
+            font-size: 14px;
+        }
+
+        h2 {
+            font-size: 60px;
+        }
+
+        a {
+            text-decoration: none;
+            color: gray;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        img {
+            width: 100px;
+        }
+
+        img:hover {
+            transform: scale(2);
+            transition: 0.6s; /* 0.1s ~ 1s 사이만 가능*/
+            transform: rotate(90deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading1</h1>
+    <h2>Heading2</h2>
+
+    <img src="images\logo.png" alt="">
+
+    <a href="https://www.naver.com">네이버로 이동</a>
+    <a href="https://www.daum.net" target="_blank">다음으로 이동</a>
+</body>
+</html>
